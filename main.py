@@ -24,7 +24,7 @@ if input_button_submit:
     unique_id = str(uuid.uuid4())
 
     registro = {
-        "_id": unique_id,
+        "id": unique_id,
         "nome": input_name,
         "data": input_date,
         
